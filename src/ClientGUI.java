@@ -4,8 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ClientGUI {
-    //private static final String SERVER_ADDRESS = "10.0.0.114"; //HOME IPV4
-    private static final String SERVER_ADDRESS = "10.29.199.148"; //SCHOOL IPV4
+    private static final String SERVER_ADDRESS = "0.0.0.0"; //REPLACE WITH LOCAL IP ADDRESS
     private static final int SERVER_PORT = 5000;
 
     private BufferedReader in;
